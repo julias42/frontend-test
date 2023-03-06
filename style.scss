@@ -6,15 +6,121 @@
 body {
   font-family: "Rubik";
 }
+.center {
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
+}
 .header_years {
+  position: relative;
+  display: flex;
+
   &__1969 {
-    width: 448px;
-    height: 102px;
+    position: relative;
+    margin-left: 196px;
+    margin-top: 152px;
+    max-height: 200px;
+
+    &_circle {
+      position: absolute;
+      top: 9px;
+      left: 34px;
+      z-index: -1;
+    }
+
+    &_year {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 34px;
+      margin-bottom: 29px;
+    }
     &_text {
+      margin-left: 90px;
+      max-width: 448px;
       font-style: normal;
       font-weight: 400;
       font-size: 16px;
       line-height: 34px;
+    }
+  }
+  &__1997 {
+    position: relative;
+    max-width: 500px;
+    min-height: 136px;
+    margin-top: 383px;
+    margin-left: 12px;
+
+    &_triangle {
+      position: absolute;
+      top: -18px;
+      left: 11px;
+      border-radius: 10px;
+      //transform: rotate(20.5deg);
+      z-index: -1;
+    }
+
+    &_year {
+      display: flex;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 34px;
+      margin-bottom: 15px;
+    }
+
+    &_year-text {
+      margin-left: 8px;
+      margin-top: 13px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 34px;
+    }
+
+    &_text {
+      margin-left: 90px;
+      max-width: 405px;
+      min-height: 75px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 34px;
+    }
+  }
+
+  &__2008 {
+    position: absolute;
+    margin-left: 180px;
+    max-width: 427px;
+    min-height: 725px;
+
+    &_year {
+      display: flex;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 34px;
+    }
+
+    &_year-text {
+      margin-left: 8px;
+      margin-top: 13px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 34px;
+    }
+    &_text {
+      margin-top: 13px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 34px;
+    }
+
+    &_canvas {
+      position: absolute;
+      z-index: -1;
     }
   }
 }

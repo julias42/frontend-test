@@ -7,15 +7,131 @@ body {
   font-family: "Rubik";
 }
 
+.center {
+  padding-left: calc(50% - 720px);
+  padding-right: calc(50% - 720px);
+}
+
+.header_years {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .header_years__1969 {
-  width: 448px;
-  height: 102px;
+  position: relative;
+  margin-left: 196px;
+  margin-top: 152px;
+  max-height: 200px;
+}
+
+.header_years__1969_circle {
+  position: absolute;
+  top: 9px;
+  left: 34px;
+  z-index: -1;
+}
+
+.header_years__1969_year {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 34px;
+  margin-bottom: 29px;
 }
 
 .header_years__1969_text {
+  margin-left: 90px;
+  max-width: 448px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 34px;
+}
+
+.header_years__1997 {
+  position: relative;
+  max-width: 500px;
+  min-height: 136px;
+  margin-top: 383px;
+  margin-left: 12px;
+}
+
+.header_years__1997_triangle {
+  position: absolute;
+  top: -18px;
+  left: 11px;
+  border-radius: 10px;
+  z-index: -1;
+}
+
+.header_years__1997_year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 34px;
+  margin-bottom: 15px;
+}
+
+.header_years__1997_year-text {
+  margin-left: 8px;
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.header_years__1997_text {
+  margin-left: 90px;
+  max-width: 405px;
+  min-height: 75px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.header_years__2008 {
+  position: absolute;
+  margin-left: 180px;
+  max-width: 427px;
+  min-height: 725px;
+}
+
+.header_years__2008_year {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 34px;
+}
+
+.header_years__2008_year-text {
+  margin-left: 8px;
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 34px;
+}
+
+.header_years__2008_text {
+  margin-top: 13px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.header_years__2008_canvas {
+  position: absolute;
+  z-index: -1;
 }
 /*# sourceMappingURL=style.css.map */
