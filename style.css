@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Rubik";
+}
+
+.header_years__1969 {
+  width: 448px;
+  height: 102px;
+}
+
+.header_years__1969_text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+}
+/*# sourceMappingURL=style.css.map */
