@@ -124,6 +124,7 @@ body {
 
 .header_years__2008_text {
   margin-top: 13px;
+  margin-left: 114px;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -131,7 +132,67 @@ body {
 }
 
 .header_years__2008_canvas {
+  position: relative;
+  top: 364px;
+  left: -178px;
+  z-index: -1;
+}
+
+.header_years__2008_figure-dotted {
+  position: relative;
+  left: 288px;
+  bottom: 467px;
+  min-height: 250px;
+  max-width: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.header_years__2008_dotted {
   position: absolute;
   z-index: -1;
+}
+
+.header_years__2008_ellipse1 {
+  position: relative;
+  top: -2px;
+}
+
+.oxford_images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 180px;
+}
+
+.oxford_images__right {
+  min-height: 280px;
+  margin-top: 150px;
+}
+
+.oxford_images__right_textBlock {
+  background-color: #a5e5f4;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 34px;
+}
+
+.oxford_images__left {
+  margin-top: 495px;
 }
 /*# sourceMappingURL=style.css.map */
