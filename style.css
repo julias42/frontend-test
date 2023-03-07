@@ -208,7 +208,7 @@ body {
 }
 
 .oxford_images__left {
-  margin-top: 495px;
+  margin-top: 474px;
   position: relative;
 }
 
@@ -237,5 +237,7 @@ body {
 
 .oxford_images__canvas {
   position: absolute;
+  top: 313px;
+  left: 422px;
 }
 /*# sourceMappingURL=style.css.map */

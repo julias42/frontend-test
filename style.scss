@@ -180,7 +180,7 @@ body {
   }
 
   &__left {
-    margin-top: 495px;
+    margin-top: 474px;
     position: relative;
 
     &_zag {
@@ -207,5 +207,7 @@ body {
   }
   &__canvas {
     position: absolute;
+    top: 313px;
+    left: 422px;
   }
 }
