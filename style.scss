@@ -7,16 +7,16 @@ body {
   font-family: "Rubik";
 }
 .center {
-  padding-left: calc(50% - 720px);
-  padding-right: calc(50% - 720px);
+  padding-left: calc(50% - 541px);
+  padding-right: calc(50% - 541px);
 }
+
 .header_years {
   position: relative;
   display: flex;
 
   &__1969 {
     position: relative;
-    margin-left: 196px;
     margin-top: 152px;
     max-height: 200px;
 
@@ -47,8 +47,8 @@ body {
     position: relative;
     max-width: 500px;
     min-height: 136px;
-    margin-top: 383px;
-    margin-left: 12px;
+    margin-top: 411px;
+    margin-left: 29px;
 
     &_triangle {
       position: absolute;
@@ -90,7 +90,6 @@ body {
 
   &__2008 {
     position: absolute;
-    margin-left: 180px;
     max-width: 427px;
     min-height: 725px;
 
@@ -128,8 +127,8 @@ body {
 
     &_figure-dotted {
       position: relative;
-      left: 288px;
-      bottom: 467px;
+      left: 267px;
+      bottom: 527px;
       min-height: 250px;
       max-width: 25px;
       display: flex;
@@ -152,13 +151,13 @@ body {
 
 .oxford_images {
   display: flex;
-  justify-content: center;
-  margin-left: 145px;
   position: relative;
+  overflow: hidden;
 
   &__right {
     min-height: 280px;
-    margin-top: 150px;
+    margin-top: 97px;
+    position: relative;
 
     &_textBlock {
       display: flex;
@@ -176,11 +175,43 @@ body {
       font-weight: 400;
       font-size: 16px;
       line-height: 34px;
+      z-index: 2;
+    }
+
+    &_cups {
+      display: flex;
+      position: relative;
+      align-items: center;
+      margin-left: 6px;
+    }
+
+    &_cup-left {
+      margin-top: -15px;
+      margin-right: 6px;
+    }
+    &_cup-right {
+      margin-top: -15px;
+    }
+    &_cups-circle {
+      position: absolute;
+      right: 288px;
+      z-index: -1;
+    }
+    &_cups-text {
+      position: absolute;
+      top: 23px;
+      right: 208px;
+      border-bottom: 1px solid black;
+      padding-bottom: 6px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 115%;
     }
   }
 
   &__left {
-    margin-top: 474px;
+    margin-top: 422px;
     position: relative;
 
     &_zag {
@@ -207,7 +238,85 @@ body {
   }
   &__canvas {
     position: absolute;
-    top: 313px;
-    left: 422px;
+    top: 164px;
+    left: -99px;
   }
+}
+.footer {
+  overflow: hidden;
+  position: relative;
+}
+.footer_blocks {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 18px;
+  grid-row-gap: 16px;
+  margin-top: 125px;
+  position: relative;
+  margin-bottom: 125px;
+
+  &__block1 {
+    max-width: 265px;
+    max-height: 265px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: #ffffff;
+    grid-area: 1 / 3 / 2 / 4;
+  }
+
+  &__big {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: #ffffff;
+    grid-area: 1 / 1 / 2 / 3;
+    width: 550px;
+    height: 265px;
+  }
+  &__yellow {
+    background: #ffe267;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    grid-area: 2 / 1 / 3 / 2;
+    width: 265px;
+    height: 265px;
+  }
+
+  &__block2 {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: #ffffff;
+    grid-area: 2 / 2 / 3 / 3;
+    width: 265px;
+    height: 265px;
+  }
+
+  &__block3 {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: #ffffff;
+    grid-area: 2 / 3 / 3 / 4;
+    width: 265px;
+    height: 265px;
+  }
+
+  &__block4 {
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+    background: #ffe267;
+    grid-area: 2 / 4 / 3 / 5;
+    width: 265px;
+    max-height: 265px;
+  }
+}
+
+.footer_background {
+  background: #f4f4f4;
+  z-index: -2;
+  width: 150vw;
+  height: 120vh;
+  transform: rotate(344deg);
+  position: absolute;
+  left: -20px;
+  top: 97px;
 }
