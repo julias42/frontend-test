@@ -3,6 +3,7 @@
   src: url("/fonts/circe.eot");
   src: url("/fonts/circe.eot?#iefix") format("embedded-opentype"), url("/fonts/circe.ttf") format("truetype");
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -11,9 +12,10 @@
 body {
   font-family: "Rubik";
 }
+
 .center {
-  padding-left: calc(50% - 541px);
-  padding-right: calc(50% - 541px);
+  padding-left: calc(50% - 550px);
+  padding-right: calc(50% - 550px);
 }
 
 .header_years {
@@ -23,7 +25,9 @@ body {
   &__1969 {
     position: relative;
     margin-top: 152px;
+    margin-left: 25px;
     max-height: 200px;
+
 
     &_circle {
       position: absolute;
@@ -39,6 +43,7 @@ body {
       line-height: 34px;
       margin-bottom: 29px;
     }
+
     &_text {
       margin-left: 90px;
       max-width: 448px;
@@ -48,6 +53,7 @@ body {
       line-height: 34px;
     }
   }
+
   &__1997 {
     position: relative;
     max-width: 500px;
@@ -83,7 +89,7 @@ body {
     }
 
     &_text {
-      margin-left: 90px;
+      margin-left: 91px;
       max-width: 405px;
       min-height: 75px;
       font-style: normal;
@@ -95,8 +101,10 @@ body {
 
   &__2008 {
     position: absolute;
+    top: -11px;
     max-width: 427px;
     min-height: 725px;
+    margin-top: -53px;
 
     &_year {
       display: flex;
@@ -114,6 +122,7 @@ body {
       font-size: 24px;
       line-height: 34px;
     }
+
     &_text {
       margin-top: 13px;
       margin-left: 114px;
@@ -132,8 +141,8 @@ body {
 
     &_figure-dotted {
       position: relative;
-      left: 267px;
-      bottom: 527px;
+      left: 292px;
+      bottom: 479px;
       min-height: 250px;
       max-width: 25px;
       display: flex;
@@ -194,14 +203,17 @@ body {
       margin-top: -15px;
       margin-right: 6px;
     }
+
     &_cup-right {
       margin-top: -15px;
     }
+
     &_cups-circle {
       position: absolute;
       right: 288px;
       z-index: -1;
     }
+
     &_cups-text {
       position: absolute;
       top: 23px;
@@ -229,6 +241,7 @@ body {
       line-height: 34px;
       color: #ffffff;
     }
+
     &_text {
       position: absolute;
       top: 163px;
@@ -241,16 +254,19 @@ body {
       color: #ffffff;
     }
   }
+
   &__canvas {
     position: absolute;
     top: 164px;
     left: -99px;
   }
 }
+
 .footer {
   overflow: hidden;
   position: relative;
 }
+
 .footer_blocks {
   display: grid;
   grid-template-columns: repeat(auto-fit, 265px);
@@ -303,6 +319,7 @@ body {
       top: 58px;
       right: 57px;
     }
+
     &_text {
       position: absolute;
       bottom: 18px;
@@ -423,8 +440,8 @@ body {
   z-index: -2;
   width: 150vw;
   height: 120vh;
-  transform: rotate(344deg);
+  transform: rotate(342deg);
   position: absolute;
   left: -20px;
-  top: 97px;
+  top: 125px;
 }
