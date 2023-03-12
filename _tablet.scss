@@ -1,4 +1,4 @@
-@media (max-width: 1024px) {
+@media (min-width:767px) and (max-width: 1023px) {
     .center {
         padding-left: calc(50% - 368px);
         padding-right: calc(50% - 368px);
@@ -70,7 +70,7 @@
     }
 
     .oxford_images__left {
-        margin-top: 472px;
+        top: 472px;
     }
 
     .oxford_images__left_text {
@@ -136,10 +136,6 @@
         margin-top: -27px;
     }
 
-    .footer_blocks {
-        justify-content: center;
-    }
-
     .footer_blocks__big_points {
         display: none;
     }
@@ -166,10 +162,18 @@
         left: 6px;
     }
 
+    .footer_blocks__block1_text {
+        bottom: 10px;
+    }
+
     .footer_blocks__yellow {
         grid-area: 1/3/2/4;
         max-width: 234px;
         max-height: 227px;
+    }
+
+    .footer_blocks__yellow_text {
+        bottom: 8px;
     }
 
     .footer_blocks__block2 {
@@ -178,15 +182,33 @@
         max-height: 231px;
     }
 
+    .footer_blocks__block2_text {
+        bottom: 5px;
+    }
+
     .footer_blocks__block3 {
         grid-area: 2/2/3/3;
         max-width: 233px;
         max-height: 231px;
     }
 
+    .footer_blocks__block3_text {
+        bottom: 12px;
+
+    }
+
     .footer_blocks__block4 {
         grid-area: 2/3/3/4;
         max-width: 234px;
         max-height: 231px;
+    }
+
+    .footer_blocks__block4_ {
+        bottom: 12px;
+    }
+
+    .footer_background {
+        transform: rotate(347deg);
+        top: -53px;
     }
 }

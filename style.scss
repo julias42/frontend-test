@@ -149,6 +149,10 @@ body {
       z-index: -1;
     }
 
+    &_canvas-mobile {
+      display: none;
+    }
+
     &_figure-dotted {
       position: relative;
       left: 292px;
@@ -251,7 +255,7 @@ body {
   }
 
   &__left {
-    margin-top: 422px;
+    top: 422px;
     position: relative;
 
     &_image {
@@ -382,6 +386,10 @@ body {
       left: 19px;
     }
 
+    &_canvas-mobile {
+      display: none;
+    }
+
     &_text {
       position: absolute;
       bottom: 18px;
@@ -454,7 +462,6 @@ body {
       font-weight: 700;
       font-size: 22px;
       line-height: 110%;
-      padding-right: px;
       padding-right: 38px;
     }
   }
@@ -491,12 +498,13 @@ body {
 .footer_background {
   background: #f4f4f4;
   z-index: -2;
-  width: 150%;
-  height: 200%;
-  transform: rotate(342deg);
+  width: 200%;
+  height: 210%;
+  transform: rotate(343deg);
   position: absolute;
   left: -20px;
-  top: -10px;
+  top: -108px;
 }
 
 @import "tablet";
+@import "mobile";
