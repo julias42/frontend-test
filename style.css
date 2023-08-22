@@ -196,8 +196,8 @@ body {
   display: flex;
   position: relative;
   opacity: 0;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
+  -webkit-transform: translateX(25%);
+          transform: translateX(25%);
 }
 
 .oxford_images__right {

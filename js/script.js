@@ -23,15 +23,15 @@ block.forEach(e => {
 function onEntry(entry) {
   entry.forEach(change => {
     if (change.isIntersecting) {
-     change.target.classList.add('footer_show');
+     change.target.classList.add('footer_show','oxford_show');
     }
   });
 }
 
 let options = {
-  threshold: [0, 0.5, 1] };
+  threshold: [0.5] };
 let observer = new IntersectionObserver(onEntry, options);
-let elements = document.querySelectorAll('.footer_blocks');
+let elements = document.querySelectorAll('.footer_blocks, .oxford_images');
 
 for (let elm of elements) {
   observer.observe(elm);
