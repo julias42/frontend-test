@@ -34,7 +34,6 @@ body {
     margin-left: 25px;
     max-height: 200px;
 
-
     &_circle {
       position: absolute;
       top: 9px;
@@ -180,6 +179,8 @@ body {
 .oxford_images {
   display: flex;
   position: relative;
+  opacity: 0;
+  transform: translateX(100%);
 
   &__right {
     min-height: 280px;
@@ -295,6 +296,11 @@ body {
     left: -99px;
   }
 }
+.oxford_images.oxford_show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateX(0%);
+}
 
 .footer {
   position: relative;
@@ -309,6 +315,7 @@ body {
   margin-top: 125px;
   position: relative;
   margin-bottom: 125px;
+  opacity: 0;
 
   &__block1 {
     max-width: 265px;
@@ -493,6 +500,11 @@ body {
       line-height: 110%;
     }
   }
+}
+.footer_blocks.footer_show {
+  opacity: 1;
+  transition: all 1.5s;
+  transform: translateY(-15%);
 }
 
 .footer_background {
