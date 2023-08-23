@@ -33,6 +33,8 @@ body {
     margin-top: 152px;
     margin-left: 25px;
     max-height: 200px;
+    transform: translateX(-150%);
+    transition: all 1.5s;
 
     &_circle {
       position: absolute;
@@ -69,6 +71,8 @@ body {
     min-height: 136px;
     margin-top: 411px;
     margin-left: 29px;
+    transform: translateX(150%);
+    transition: all 1.5s;
 
     &_triangle {
       position: absolute;
@@ -114,6 +118,8 @@ body {
     max-width: 427px;
     min-height: 725px;
     margin-top: -53px;
+    transform: translateX(-150%);
+    transition: all 1.5s;
 
     &_year {
       display: flex;

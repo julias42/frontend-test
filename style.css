@@ -36,6 +36,10 @@ body {
   margin-top: 152px;
   margin-left: 25px;
   max-height: 200px;
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .header_years__1969_circle {
@@ -72,6 +76,10 @@ body {
   min-height: 136px;
   margin-top: 411px;
   margin-left: 29px;
+  -webkit-transform: translateX(150%);
+          transform: translateX(150%);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .header_years__1997_triangle {
@@ -118,6 +126,10 @@ body {
   max-width: 427px;
   min-height: 725px;
   margin-top: -53px;
+  -webkit-transform: translateX(-150%);
+          transform: translateX(-150%);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .header_years__2008_year {
