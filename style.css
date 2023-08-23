@@ -172,9 +172,9 @@ body {
 }
 
 .header_years__2008_figure-dotted {
-  position: relative;
-  left: 292px;
-  bottom: 479px;
+  position: absolute;
+  top: 367px;
+  left: 389px;
   min-height: 250px;
   max-width: 25px;
   display: -webkit-box;
@@ -190,6 +190,10 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-transform: translateX(-30rem);
+          transform: translateX(-30rem);
+  -webkit-transition: all 1.5s;
+  transition: all 1.5s;
 }
 
 .header_years__2008_dotted {

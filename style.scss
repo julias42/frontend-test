@@ -159,15 +159,17 @@ body {
     }
 
     &_figure-dotted {
-      position: relative;
-      left: 292px;
-      bottom: 479px;
+      position: absolute;
+      top: 367px;
+      left: 389px;
       min-height: 250px;
       max-width: 25px;
       display: flex;
       flex-direction: column;
       align-items: center;
       justify-content: space-between;
+      transform: translateX(-30rem);
+      transition: all 1.5s;
     }
 
     &_dotted {
